@@ -3,13 +3,18 @@
 
 using System;
 
-public class Solution {
-    public int MostWordsFound(string[] sentences) {
+public class Solution
+{
+    public int MostWordsFound(string[] sentences)
+    {
         int maxWords = 0;
 
         foreach (var sentence in sentences)
         {
-            maxWords = (maxWords < sentence.Split(" ").Length) ? sentence.Split(" ").Length : maxWords;
+            maxWords =
+                (maxWords < sentence.Split(" ").Length)
+                    ? sentence.Split(" ").Length
+                    : maxWords;
         }
 
         return maxWords;
@@ -23,13 +28,21 @@ public class Solution {
             string
                 .Join(", ",
                 solution
-                    .MostWordsFound(new string[] {"alice and bob love leetcode", "i think so too", "this is great thanks very much"})));
+                    .MostWordsFound(new string[] {
+                        "alice and bob love leetcode",
+                        "i think so too",
+                        "this is great thanks very much"
+                    })));
 
         Console
             .WriteLine("[{0}]",
             string
                 .Join(", ",
                 solution
-                    .MostWordsFound(new string[] {"please wait", "continue to fight", "continue to win"})));
+                    .MostWordsFound(new string[] {
+                        "please wait",
+                        "continue to fight",
+                        "continue to win"
+                    })));
     }
 }

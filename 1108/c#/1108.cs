@@ -8,7 +8,7 @@ public class Solution
 {
     public string DefangIPaddr(string address)
     {
-        string result = Regex.Replace(address,@"(\.)","[.]");
+        string result = Regex.Replace(address, @"(\.)", "[.]");
 
         return result;
     }
@@ -18,16 +18,10 @@ public class Solution
         Solution solution = new Solution();
         Console
             .WriteLine("[{0}]",
-            string
-                .Join(", ",
-                solution
-                    .DefangIPaddr("1.1.1.1")));
+            string.Join(", ", solution.DefangIPaddr("1.1.1.1")));
 
         Console
             .WriteLine("[{0}]",
-            string
-                .Join(", ",
-                solution
-                    .DefangIPaddr("255.100.50.0")));
+            string.Join(", ", solution.DefangIPaddr("255.100.50.0")));
     }
 }

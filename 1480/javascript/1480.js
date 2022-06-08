@@ -1,6 +1,6 @@
 // node 1480.js 
 
-var runningSum = function(nums) {
+var runningSum = function (nums) {
     let arr = [];
     let eSum = 0
 

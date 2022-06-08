@@ -1,6 +1,6 @@
 // node 2114.js
 
-var mostWordsFound = function(sentences) {
+var mostWordsFound = function (sentences) {
     let maxWords = 0;
 
     sentences.map((sentence) => {

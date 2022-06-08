@@ -5,7 +5,7 @@ function getConcatenation(nums: number[]): number[] {
     let arr: number[] = [];
 
     while (arr.length < (nums.length * 2)) {
-        nums.map((num)=> {
+        nums.map((num) => {
             arr.push(num);
         });
     }
@@ -13,4 +13,4 @@ function getConcatenation(nums: number[]): number[] {
     return arr;
 };
 
-console.log(getConcatenation([1,2,1]));
+console.log(getConcatenation([1, 2, 1]));

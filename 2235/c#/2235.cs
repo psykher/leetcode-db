@@ -1,5 +1,5 @@
 // mcs -out:2235.exe 2235.cs
-// mono 2235.exe 
+// mono 2235.exe
 
 using System;
 

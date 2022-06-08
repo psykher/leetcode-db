@@ -18,7 +18,6 @@ class Solution(object):
 
         return hb
 
-
 solution = Solution()
 
 op1 = [[1, 2, 3], [3, 2, 1]]

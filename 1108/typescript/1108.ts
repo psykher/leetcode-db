@@ -2,7 +2,7 @@
 // node 1108.js
 
 function defangIPaddr(address: string): string {
-    let out: string = address.replace(/\./g,"[.]");
+    let out: string = address.replace(/\./g, "[.]");
     return out;
 };
 

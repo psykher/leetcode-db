@@ -1,4 +1,4 @@
-# python 1929.py 
+# python 1929.py
 
 class Solution(object):
     def getConcatenation(self, nums):
@@ -10,8 +10,8 @@ class Solution(object):
 
         while (len(arr) < (len(nums) * 2)):
             arr += nums
-             
+
         return arr
 
 solution = Solution()
-print(solution.buildArray([1,2,1]))
+print(solution.buildArray([1, 2, 1]))

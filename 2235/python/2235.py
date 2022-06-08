@@ -1,4 +1,4 @@
-# python 2235.py 
+# python 2235.py
 
 class Solution(object):
     def sum(self, num1, num2):

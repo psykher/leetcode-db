@@ -1,7 +1,4 @@
-# 1470.py
-
-from ast import For
-
+# python 1470.py
 
 class Solution(object):
     def shuffle(self, nums, n):
@@ -18,7 +15,6 @@ class Solution(object):
             arr.append(nums[i+n])
 
         return arr
-
 
 solution = Solution()
 

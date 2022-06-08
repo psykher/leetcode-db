@@ -1,4 +1,4 @@
-# python 1108
+# python 1108.py
 
 import re
 
@@ -9,10 +9,9 @@ class Solution(object):
         :rtype: str
         """
 
-        out = re.sub("\.","[.]",address)
+        out = re.sub("\.", "[.]", address)
 
         return out
-        
 
 solution = Solution()
 

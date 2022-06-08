@@ -10,7 +10,8 @@ public class Solution
     {
         int xVal = 0;
 
-        foreach (string e in operations) {
+        foreach (string e in operations)
+        {
             xVal += (new Regex(@"(^.*\+\+.*$)").Match(e).Success) ? 1 : -1;
         }
 

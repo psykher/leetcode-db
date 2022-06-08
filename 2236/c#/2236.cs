@@ -30,7 +30,10 @@ public class Solution
     static void Main(string[] args)
     {
         Solution solution = new Solution();
-        TreeNode treeNode = new TreeNode(5, new TreeNode(3, null, null), new TreeNode(1, null, null));
+        TreeNode treeNode =
+            new TreeNode(5,
+                new TreeNode(3, null, null),
+                new TreeNode(1, null, null));
 
         Console.WriteLine(solution.CheckTree(treeNode));
     }

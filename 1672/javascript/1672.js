@@ -1,6 +1,6 @@
 // node 1672.js
 
-var maximumWealth = function(accounts) {
+var maximumWealth = function (accounts) {
     let hb = 0;
 
     accounts.map((customer) => {

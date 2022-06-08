@@ -1,10 +1,10 @@
 // node 1929.js
 
-var getConcatenation = function(nums) {
+var getConcatenation = function (nums) {
     let arr = [];
 
     while (arr.length < (nums.length * 2)) {
-        nums.map((num)=> {
+        nums.map((num) => {
             arr.push(num);
         });
     }
@@ -12,4 +12,4 @@ var getConcatenation = function(nums) {
     return arr;
 };
 
-console.log(getConcatenation([1,2,1]));
+console.log(getConcatenation([1, 2, 1]));
