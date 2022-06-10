@@ -16,6 +16,6 @@ This is a LeetCode solutions database, planning to keep updating this as new sol
 
 ## License
 
-GNU General Public License v3.0
+[GNU General Public License v3.0](https://raw.githubusercontent.com/psykher/leetcode-db/master/LICENSE)
 
 ## Made with ❤️ in `México`
