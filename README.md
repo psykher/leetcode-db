@@ -13,3 +13,9 @@ This is a LeetCode solutions database, planning to keep updating this as new sol
 - Planning to add a tester so it can easily test each code performance.
 - Having a tag system could be helpful to filter a search.
 - What about a CLI and a page?
+
+# License
+
+GNU General Public License v3.0
+
+# Made with ❤️ in `México`
