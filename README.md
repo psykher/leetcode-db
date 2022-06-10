@@ -2,20 +2,20 @@
 
 This is a LeetCode solutions database, planning to keep updating this as new solution is coded. So this repo could be used to query any solution.
 
-# Contribute:
+## Contribute:
 
 - New solutions.
 - New languages.
 - Improve performance.
 
-# Next steps:
+## Next steps:
 
 - Planning to add a tester so it can easily test each code performance.
 - Having a tag system could be helpful to filter a search.
 - What about a CLI and a page?
 
-# License
+## License
 
 GNU General Public License v3.0
 
-# Made with ❤️ in `México`
+## Made with ❤️ in `México`
